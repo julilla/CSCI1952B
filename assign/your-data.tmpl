@@ -1,0 +1,87 @@
+<h2>Assignment 1: Take Control of Your Data!</h2>
+
+<p>In this assignment, you will investigate what degree of control you have over your personal
+data stored in different web services, learn something about what these web services know about
+you, and reflect on the challenges for privacy that can result.
+The goal is to understand how services collect and retain data, and how they make it available
+to their users.</p>
+
+<p><b>Overview of what you will do:</b>
+<ol>
+  <li>Request and download your data from a few web services that you use.
+  <li>Answer a few questions and write a short reflection on what you found.
+</ol>
+</p>
+
+<p>Please read the detailed instructions below, as they are designed to help make the assignment easier for you. As you work through the tasks, you will encounter six questions; please take notes as you go along, as you'll write up your answers in the end.</p>
+
+<h4>Step 1: Investigate ways to get your data</h4>
+
+<p>We all use many web services today. Some of these services give users access to their own
+data in bulk form: in other words, you can download the information that you have given to the
+service, as well as information that the service stores <em>about</em> you.</p>
+
+<p>In many cases, the companies behind these web services use your data to make money, and they
+may share your data with other organizations as part of this business model. Sometimes, you can
+find out what information has been shared with whom.</p>
+
+<p>Your task is to pick a few web services that you use on a regular basis, and to investigate
+three things:
+<ol>
+ <li>whether the service makes your data available for access and download;
+ <li>what data is available; and
+ <li>how easy it is to get access.
+</ol>
+</p>
+
+<p>For some large services, you can find instructions online (e.g., <a href="https://support.google.com/accounts/answer/3024190?hl=en">Google</a>, <a href="https://www.facebook.com/help/1701730696756992">Facebook</a>, <a href="https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive">Twitter</a>, <a href="https://help.instagram.com/181231772500920?helpref">Instagram</a>, <a href="https://support.spotify.com/us/article/data-rights-and-privacy-settings/">Spotify</a>), while others may require you to make a request (e.g., <a href="https://policy.pinterest.com/en-gb/privacy-policy#section-your-options">Pinterest</a>, <a href="https://help.netflix.com/en/node/100624">Netflix</a>). For other services, a web search for <em>&quot;&lt;service name&gt; download data&quot;</em> often helps find instructions. Since web services have to provide this information under the GDPR, it can also help to look for GDPR-related instructions (e.g., search for <em>&quot;&lt;service name&gt; GDPR data request&quot;</em>).</p>
+
+<p>In addition, there are sometimes other places where you can view data about yourself. Twitter, for example, gives you the option to request a list of advertisers who have &quot;uploaded&quot;
+your contact details as part of an &quot;audience&quot; (go to &quot;Settings&quot;, &quot;Account&quot;, &quot;Your Twitter Data&quot;, &quot;Interests and ads data&quot;, &quot;Tailored audiences&quot;).</p>
+
+<p>It may also be very interesting to look into smaller sites and services, which are often less well-placed to provide this information. Some may require you to make a manual request (e.g., by email, or postal letter); you're welcome to do so if you'd like, but there is no expectation that you jump through huge hoops for this assignment. If you rely on the GDPR for your request, remember that strictly speaking only users in the EU are able to exercise rights under the GDPR; if you happen to be in a EU country, feel free to do so, but if you are in the US, services do not have to comply with your request under the GDPR.</p>
+
+<p>Make sure to also keep notes on which services <b>do not</b> provide a way to access your data!</p>
+
+<h4>Step 2: Get the information</h4>
+
+<p>Now download or request your data. It may take a little while to get it; some services make you wait for anything from minutes to hours or days until they supply you with a file to download.</p>
+
+<div class="alert alert-primary"><b>Question 1:</b> <em>Think about why services take a while to return your data. What technical reasons could there be? What non-technical, policy reasons could there be?</em></div>
+
+<p>Look over the results, and choose one or two services as examples to answer the following
+questions.</p>
+
+<p><b>Note:</b> some services (e.g., Twitter, Facebook) supply a ZIP archive that contains HTML files to visualize data for easy viewing. However, the visualized data may not be everything that's in the archive in raw form! Do make sure to check the contents of files (e.g., JavaScript files, JSON files) for additional data. Twitter, for example, <a href="https://www.usenix.org/system/files/sec20-wei.pdf">includes highly detailed information about ad targeting</a>, but does not visualize it.</p>
+
+<h4>Step 3: Analyze what you got</h4>
+
+<p>Take a good look at the data you received. It may come in a variety of formats, such as a ZIP archive containing JSON files, or a big text dump.</p>
+
+<div class="alert alert-primary"><b>Question 2:</b> <em>How is the data organized? Is it easy to understand what it contains, and would it be possible to process this information in an automated way (e.g., to visualize to non-technical users what information the service keeps about them).</em></div>
+
+<p>Now, look into the content itself. You'll probably find many things you expect, such as posts you made, pictures you uploaded, etc.; but there may also be other information that you did not directly provide (e.g., information related to advertising). This data tells you something about how the service is using your data, and what information they track about you. (The service's privacy policy is also a good source for this information, but may provide it only in rather vague terms. You can use <a href="https://pribot.org/polisis">Polisis</a> to get a summary of services' privacy policies.)</p>
+
+<div class="alert alert-primary"><b>Question 3:</b> <em>What were you surprised by? Was there data you did not expect to see? Did you find information that you didn't even remember this service having? Did the data include any information about <b>other</b> users? Were you concerned about anything you found?</em></div>
+
+<p>Finally, reflect on how you use the service, what it does, and what types of information the service needs to work. Often, this includes information that you did not directly provide: for example, the business model of many web services is targeted advertising, but in order to allow advertisers to target you, the service must classify your interests into a set of categories available to advertisers (e.g., demographic, interests, etc.).</p>
+
+<div class="alert alert-primary"><b>Question 4:</b> <em>To a best guess, is this data <b>complete</b>? In other words, are there actions you took or information you provided to the site that you expect to have yielded personal data stored or processed that the service did not return to you?</em></div>
+
+<p>There are certain categories of data &ndash; such as fully anonymous data that cannot be linked to an individual even with the aid of additional datasets, or information covered by any of the exemption cases in laws like the GDPR &ndash; that services are allowed to keep private. If there it something missing, reflect on whether you think that information would be covered by these.</p>
+
+<h4>Step 4: Reflect, and write up your experience</h4>
+
+<p>Finally, reflect on your experience retrieving and analyzing your data.</p>
+
+<div class="alert alert-primary"><b>Question 5:</b> <em>Was it easy to get your data, and to understand the contents? Could you imagine less technical users (e.g., older family members) making use of this facility, and would they benefit? Did your opinion of the web service change at all in response to what you found?</em></div>
+
+<p>While it is good to have convenient web services, the accumulation of sensitive data on computers that you do not control can also expose you to risks. Let's think about what could happen.</p>
+
+<div class="alert alert-primary"><b>Question 6:</b> <em>What <b>dangers</b> are inherent in this data? What could an adversary (e.g., a hacker who compromises the web service, or someone who impersonates you to request the data) do with the information included? (Feel free to answer this question in general or hypothetical terms if you prefer to avoid revealing information about yourself or your data.)</em></div>
+
+<hr />
+
+<p><b>Now write up your answers to the questions in a short document (1-2 pages; a paragraph for each question suffices).</b> You're welcome to use whatever text format and editor suits you, but please submit a PDF, Markdown file, or plain text document.</p>
+
+<div class="alert alert-success"><b>Task:</b> Submit your answers by email to <a href="https://cs.brown.edu/people/malte">Malte</a> by <b>11pm</b> (Eastern time) on <b>Friday, September 18, 2020</b>.</div>

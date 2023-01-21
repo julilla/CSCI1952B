@@ -1,0 +1,341 @@
+# -*- text -*-
+#
+# To generate the calendar: ./schedule.py > schedule.shtml
+#
+# This file follows a mostly self-documenting format for describing
+# calendar data.  Any line that begins with # is a comment.  A line of
+# the form "== Name ==" begins a new layer in the calendar.
+#
+# A line containing a date expression or a hyphen-separated date rate
+# moves forward to the next date (or date range) that satisfies that
+# expression.  Dates can be given in absolute form as "<Abbreviated
+# month> <day>, <year>", in relative form as the name of a weekday, as
+# the name of a layer (which represents all dates used by that layer)
+# or as a named date definition.  These can be combined with "and",
+# "or", "not", and parens in the expected way.  A line of the form
+# "NAME = DATE-EXPR" defines a named date definition.
+
+# A line that begins with "- " and any indented lines that follow it
+# add items to the current date:
+#
+# - Holiday[: text]
+# - Special[: text]
+# - Lec: <text>
+# - Rec: <text>
+# - Tut: <text>
+# - Prep [sections]: <text>
+# - Due: <text>
+# - Text [CSS class]: <text>
+#
+# <text> in any of these may be arbitrary HTML text, with the added
+# convenience that the form "[href text...]" is converted to a
+# hyperlink.
+#
+# Finally, {{raw}} directly emits raw html, after finishing the
+# current calendary week (if there is one).
+
+{{
+<style>
+table.calendar {
+    font-family: arial, helvetica;
+    font-size: 10pt;
+    empty-cells: show;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+table.calendar tr td {
+    border: 1px solid #aaaaaa;
+}
+table.calendar tr {
+    vertical-align: top;
+    height: 6em;
+    background: #eeeeee;
+}
+table.calendar thead tr {
+    text-align: center;
+    background: #444444;
+    color: #ffffff;
+    height: auto;
+    font-weight: bold;
+}
+.lecture {
+    background: #ffffaa;
+}
+.recitation {
+    background: #cccc99;
+}
+.tutorial {
+    background: #dddd55;
+}
+.quiz {
+    background: #ff9900;
+}
+.holiday {
+    background: #ccffcc;
+}
+.special {
+    background: #aaaaff;
+}
+.important {
+    background: #ffaaaa;
+}
+.reading {
+    color: #3333ff;
+}
+.deadline {
+    color: #ff0000;
+}
+.assignment {
+    color: #0aa00a;
+}
+.date {
+    color: #444444;
+}
+.due {
+    background: #ffaaaa;
+}
+</style>
+
+<p>Please assume that the
+material and schedule for future meetings may change.
+If you are particularly interested in some topic not covered here,
+send an email to <a href="https://julianetter.de">Julia</a>.</p>
+
+<p>All the readings for the weeks ahead will be available on <a href="https://canvas.brown.edu/courses/1086488/files">Canvas</a>, unless they are available as an ebook from the library. In that case, there will be a link on the schedule. </p>
+
+<div class="table-responsive">
+<table class="table calendar" cellspacing="0" cellpadding="6" width="100%">
+ <thead>
+  <tr>
+   <td width="34%">Monday</td><td width="14%">Tuesday</td>
+   <td width="34%">Wednesday</td><td width="14%">Thursday</td>
+   <td width="14%">Friday</td>
+  </tr>
+ </thead>
+}}
+
+##################################################################
+# Calendar data
+#
+
+== Holidays ==
+
+Feb 20, 2023
+- Holiday: Presidents' Day
+#TUELEC = .
+
+#Nov 23, 2022 - Nov 27, 2022
+#- Holiday: Thanksgiving Recess
+
+== Special ==
+
+Jan 25, 2023
+- Special: First day of classes
+
+#Oct 1, 2022
+#- Special: ADD DATE
+
+#Oct 18, 2022
+#- Special: <b class="deadline">DROP DATE</b>
+
+May 9, 2023
+- Special: Last day of classes
+
+May 10, 2023 - May 19, 2023
+- Text:  Exam period
+
+
+##################################################################
+
+== Lectures ==
+
+LEC = (Mon or Wed) and not Holidays
+
+# Skip opening convocation
+#Thr
+
+LEC
+#Wed wk1
+- Lec: <b>Introduction<b>
+- Prep: [https://aeon.co/videos/how-we-confuse-the-intended-uses-of-technology-with-the-actual-uses]
+
+LEC
+#Mon wk2
+- Lec: <b>Disciplinary approaches: ethics and political philosophy: moral perspectives<b>
+- Prep: Mulgan: How should utilitarians think about the future?
+- Prep: Aylsworth and Castro: On the duty to be an attention ecologist
+
+
+LEC
+#Wed wk2
+- Lec: <b>Disciplinary approaches: ethics and political philosophy: political perspectives<b>
+- Prep: Alcázar et al.: Do Automated Vehicles Face Moral Dilemmas? A Plea for a Political Approach
+- Prep: Young: Taking the Basic Structure Seriously
+
+LEC
+#Mon wk3
+- Lec: <b>Disciplinary approaches: critical approaches</b>
+- Prep: 
+
+LEC
+#Wed wk3
+- Lec: <b>Disciplinary approaches: critical approaches</b>
+- Prep: 
+
+LEC
+#Mon wk4
+- Lec: <b>Data: privacy</b>
+- Prep: 
+
+
+LEC
+#Wed wk4
+- Lec: <b>Data: privacy</b>
+- Prep: 
+
+
+LEC
+#Wed wk5
+- Lec: <b>Data: transparency</b>
+- Prep: 
+
+LEC
+#Mon wk6
+- Lec: <b>Data and AI: fairness and justice</b>
+- Prep: 
+
+
+LEC
+#Wed wk6
+- Lec: <b>Data and AI: fairness and justice</b>
+- Prep: 
+
+
+LEC
+#Mon wk7
+- Lec: <b>Individuals: autonomy and consent</b>
+- Prep: 
+
+LEC
+#Wed wk7
+- Lec: <b>Individuals: autonomy and consent</b>
+- Prep:
+
+LEC
+#Mon wk8
+- Lec: <b>Individuals: flourishing and the attention economy</b>
+- Prep: 
+
+
+LEC
+#Wed wk8
+- Lec: <b>Individuals: flourishing and the attention economy</b>
+- Prep: 
+
+LEC
+#Mon wk9
+- Lec: project research workshops: talk to domain experts
+
+
+LEC
+#Wed wk9
+- Lec: project research workshops: talk to domain experts
+
+
+LEC
+#Mon wk10
+- Lec: Spring break 
+
+
+LEC
+#Wed wk10
+- Lec: Spring break
+
+
+LEC
+#Mon wk 11
+- Lec: <b>The public sphere: democratic engagement and public discourse</b>
+- Prep: 
+
+
+LEC
+#Wed wk 11
+- Lec: <b>The public sphere: democratic engagement and public discourse</b>
+- Prep: 
+
+
+LEC
+#Mon wk 12
+- Lec: <b>The public sphere: regulation</b>
+- Prep: 
+
+
+LEC
+#Wed wk 12
+- Lec: <b>The public sphere: regulation</b>
+- Prep:
+
+LEC
+#Mon wk 13
+- Lec: <b>Simulation: social and political engagement<b>
+
+
+LEC
+#Wed wk 13
+- Lec: <b>Simulation: social and political engagement<b>
+
+
+LEC
+#Mon wk 14
+- Lec: project presentations
+
+
+LEC
+#Wed wk 14
+- Lec: project presentations
+
+
+
+
+
+##################################################################
+== Labs ==
+
+#Sep 20, 2022
+#- Assign: Short paper #1
+
+#Sep 30, 2022
+#- Due: Short paper #1
+
+#Oct 18, 2022
+#- Assign: Short paper #2
+
+
+#Nov 4, 2022
+#- Due: Short paper #2 (on Sunday, November 6, end of day)
+
+#November 8‚ 2022
+#- Assign: Final project
+
+Dec 13, 2022
+- Due: Final project
+
+
+##################################################################
+
+{{
+</table>
+</div>
+
+<script type="text/javascript">
+var d = new Date();
+for (var fwd = 0; fwd < 3; fwd++) {
+  var i = d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();
+  var e = document.getElementById(i);
+  if (e) { e.style.border = '2px solid blue'; break; }
+  d.setTime(d.getTime() + 24*60*60*1000);
+}
+</script>
+
+<p></p>
+}}
