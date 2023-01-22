@@ -107,9 +107,9 @@ send an email to <a href="https://julianetter.de">Julia</a>.</p>
 <table class="table calendar" cellspacing="0" cellpadding="6" width="100%">
  <thead>
   <tr>
-   <td width="34%">Monday</td><td width="14%">Tuesday</td>
-   <td width="34%">Wednesday</td><td width="14%">Thursday</td>
-   <td width="14%">Friday</td>
+   <td width="26%">Monday</td><td width="16%">Tuesday</td>
+   <td width="26%">Wednesday</td><td width="16%">Thursday</td>
+   <td width="16%">Friday</td>
   </tr>
  </thead>
 }}
@@ -124,8 +124,8 @@ Feb 20, 2023
 - Holiday: Presidents' Day
 #TUELEC = .
 
-#Nov 23, 2022 - Nov 27, 2022
-#- Holiday: Thanksgiving Recess
+Mar 25, 2023 - Mar 31, 2023
+- Holiday: Spring Break
 
 == Special ==
 
@@ -243,16 +243,6 @@ LEC
 
 
 LEC
-#Mon wk10
-- Lec: Spring break 
-
-
-LEC
-#Wed wk10
-- Lec: Spring break
-
-
-LEC
 #Mon wk 11
 - Lec: <b>The public sphere: democratic engagement and public discourse</b>
 - Prep: 
@@ -301,23 +291,34 @@ LEC
 ##################################################################
 == Labs ==
 
-#Sep 20, 2022
-#- Assign: Short paper #1
+Jan 30, 2023
+- Assign: Lab #1 (Critical Analysis)
 
-#Sep 30, 2022
-#- Due: Short paper #1
+Feb 15, 2023
+- Due: Lab #1 (Critical Analysis: Content Moderation)
 
-#Oct 18, 2022
-#- Assign: Short paper #2
+Feb 20, 2023
+- Assign: Lab 2 (Specification: Smart Thermostat)
 
+Mar 1, 2023
+- Due: Lab 2 (Specification: Smart Thermostat)
 
-#Nov 4, 2022
-#- Due: Short paper #2 (on Sunday, November 6, end of day)
+Mar 6, 2023
+- Assign: Lab 3 (Implementation: Hiring System)
 
-#November 8‚ 2022
-#- Assign: Final project
+Mar 15, 2023
+- Due: Lab 3 (Implementation: Hiring System)
 
-Dec 13, 2022
+Mar 20, 2023
+- Assign: Lab 4 (Social Impact Testing)
+
+Mar 24, 2023
+- Due: Final project proposal
+
+Apr 5, 2023
+- Due: Lab #4 (Social Impact Testing)
+
+May 5, 2023
 - Due: Final project
 
 
