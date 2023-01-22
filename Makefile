@@ -3,6 +3,8 @@ HTML = index.html \
 			 projects.html \
 			 details.html \
 			 syllabus.html \
+			 staff.html \
+			 hours.html \
 			 assign/index.html
 AUX_CSS = css/main.css
 AUX_TMPL = navbar.tmpl top.tmpl
