@@ -99,7 +99,7 @@ table.calendar thead tr {
 <!--<p>Please assume that the
 material and schedule for future meetings may change.</p>-->
 
-<p>All the readings for the weeks ahead will be available on <a href="https://canvas.brown.edu/courses/1086488/files">Canvas</a>, unless they are available as an ebook from the library. In that case, there will be a link on the schedule. </p>
+<p>All the readings for the weeks ahead will be available on <a href="https://canvas.brown.edu/courses/1086488/files">Canvas</a>, unless they are available online without access restrictions or as an ebook from the library. In that case, you can access them via a link on the schedule. </p>
 
 <div class="table-responsive">
 <table class="table calendar" cellspacing="0" cellpadding="6" width="100%">
@@ -155,58 +155,68 @@ LEC = (Mon or Wed) and not Holidays
 LEC
 #Wed wk1
 - Lec: <b>Introduction<b>
-- Prep: [https://aeon.co/videos/how-we-confuse-the-intended-uses-of-technology-with-the-actual-uses]
+- Prep: [https://aeon.co/videos/how-we-confuse-the-intended-uses-of-technology-with-the-actual-uses Morozov, <i>The Internet in Society: Empowering or Censoring Citizens?</i>]
 
 LEC
 #Mon wk2
-- Lec: <b>Disciplinary approaches: ethics and political philosophy: moral perspectives<b>
-- Prep: Mulgan: How should utilitarians think about the future?
-- Prep: Aylsworth and Castro: On the duty to be an attention ecologist
+- Lec: <b>Disciplinary approaches: ethics and political philosophy: moral perspectives</b>
+- Prep: Mulgan, <i>How should utilitarians think about the future?</i>
+- Prep: Aylsworth and Castro,<i> On the duty to be an attention ecologist</i>
 
 
 LEC
 #Wed wk2
-- Lec: <b>Disciplinary approaches: ethics and political philosophy: political perspectives<b>
-- Prep: Alcázar et al.: Do Automated Vehicles Face Moral Dilemmas? A Plea for a Political Approach
-- Prep: Young: Taking the Basic Structure Seriously
+- Lec: <b>Disciplinary approaches: ethics and political philosophy: political perspectives</b>
+- Prep: Alcázar et al., <i>Do Automated Vehicles Face Moral Dilemmas? A Plea for a Political Approach</i> 
+- Prep: Young, <i>Taking the Basic Structure Seriously</i>
 
 LEC
 #Mon wk3
 - Lec: <b>Disciplinary approaches: critical approaches</b>
-- Prep: 
+- Prep: [https://ssrn.com/abstract=3771595 Hull, <i>Infrastructure, Modulation, Portal: Thinking with Foucault about how Internet Architecture Shapes Subjects</i>]
+- Prep: Sheehey, <i>Ethics Beyond Transparency: Resisting the Racial Injustice of Predictive Policing</i>
 
 LEC
 #Wed wk3
 - Lec: <b>Disciplinary approaches: critical approaches</b>
-- Prep: 
+- Prep: Coeckelbergh and Reijers, <i>Cryptocurrencies as Narrative Technologies</i>
+- Prep: Scharff, <i>On Making Phenomenologies of Technology More Phenomenological</i>
 
 LEC
 #Mon wk4
 - Lec: <b>Data: privacy</b>
-- Prep: 
+- Prep: [https://harpers.org/archive/2018/01/the-digital-poorhouse/ Eubanks,<i>The digital Poorhouse </i>]
+- Prep: Véliz, <i>Privacy is Power,</i> chapters 1-4
 
 
 LEC
 #Wed wk4
 - Lec: <b>Data: privacy</b>
-- Prep: 
+- Prep: Rouvroy and Poullet,  <i>The Right to Informational Self-Determination and the Value of Self-Development: Reassessing the Importance of Privacy for Democracy </i>
+- Prep: [https://www.stanfordlawreview.org/online/privacy-paradox-the-right-to-be-forgotten/ Rosen, <i>The Right to be Forgotten</i>]
+- Prep: De Baets, <i>A historian's view on the right to be forgotten</i>
 
 
 LEC
 #Wed wk5
 - Lec: <b>Data: transparency</b>
-- Prep: 
+- Prep: [https://bruknow.library.brown.edu/permalink/01BU_INST/9mvq88/alma991004754629706966 Pasquale, <i>The Black Box Society,</i> chapters 3 and 5]
+- Prep: [https://philpapers.org/archive/NGUTIS.pdf Nguyen, <i>Transparency is Surveillance</i>]
 
 LEC
 #Mon wk6
 - Lec: <b>Data and AI: fairness and justice</b>
-- Prep: 
+- Prep: Towner, Thinking like a Computer, chapter 3
+- Prep: TBD
+- Prep: Anderson, <i>The End of Theory: The Data Deluge Makes the Scientific Method Obsolete</i>
 
 
 LEC
 #Wed wk6
 - Lec: <b>Data and AI: fairness and justice</b>
-- Prep: 
+- Prep: [https://www.youtube.com/watch?v=jIXIuYdnyyk Narayanan: 21 fairness definitions and their politics]
+- Prep: [https://arxiv.org/abs/1609.05807 Kleinberg et al., <i>Inherent Trade-Offs in the Fair Determination of Risk Scores</i>]
+- Prep Green <i>Escaping the Impossibility of Fairness</i>  
 
 
 LEC
@@ -255,7 +265,7 @@ LEC
 LEC
 #Mon wk 12
 - Lec: <b>The public sphere: regulation</b>
-- Prep: 
+- Prep: [https://bruknow.library.brown.edu/permalink/01BU_INST/9mvq88/alma991004754629706966 Pasquale, <i>The Black Box Society,</i> chapter 6]
 
 
 LEC
