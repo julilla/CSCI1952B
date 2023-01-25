@@ -155,7 +155,7 @@ LEC = (Mon or Wed) and not Holidays
 LEC
 #Wed wk1
 - Lec: <b>Introduction<b>
-- Prep: [https://aeon.co/videos/how-we-confuse-the-intended-uses-of-technology-with-the-actual-uses Morozov, <i>The Internet in Society: Empowering or Censoring Citizens?</i>]
+#- Prep: [https://aeon.co/videos/how-we-confuse-the-intended-uses-of-technology-with-the-actual-uses Morozov, <i>The Internet in Society: Empowering or Censoring Citizens?</i>]
 
 LEC
 #Mon wk2
