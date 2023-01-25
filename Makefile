@@ -5,8 +5,8 @@ HTML = index.html \
 			 syllabus.html \
 			 staff.html \
 			 hours.html \
-			 assign/index.html
-			 labs.html\
+			 assign/index.html \
+			 labs.html 
 AUX_CSS = css/main.css
 AUX_TMPL = navbar.tmpl top.tmpl
 
