@@ -65,3 +65,11 @@ div.responsebox {
 pre.responsepre {
   white-space: pre-wrap;
 }
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 0;
+  height: 100%;
+  width: auto;
+}
